@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.cdnfonts.com/css/anurati" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/true-lies" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+      </head>
+      <body>
+        <!-- Calculator -->
+        <canvas></canvas>
+        <div
+          class="calculator h-screen w-screen container mx-auto flex justify-center items-center flex-col"
+        >
+          <h1
+            class="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black uppercase pb-10"
+          >
+            Calculatrix
+          </h1>
+          
+          <div
+            class="flex justify-end items-center flex-col border border-gray-400 border-opacity-80 bg-[#141414]"
+          >
+            <div
+              id="screen"
+              class="flex items-end flex-col p-2 w-full bg-[#464646]"
+            >
+              <div
+                id="valeurs"
+                class="border-b-2 border-gray-500 w-full text-end"
+              >
+                0
+              </div>
+              <div id="resultat" class="">0</div>
+            </div>
+            <div id="btn">
+              <button id="buttonEffacer" class="w-full">AC</button>
+              <div class="flex justify-between">
+                <button id="button7" class="m-0.5">7</button>
+                <button id="button8" class="m-0.5">8</button>
+                <button id="button9" class="m-0.5">9</button>
+                <button id="buttonDivide" class="m-0.5">/</button>
+              </div>
+              <div class="flex justify-between">
+                <button id="button4" class="m-0.5">4</button>
+                <button id="button5" class="m-0.5">5</button>
+                <button id="button6" class="m-0.5">6</button>
+                <button id="buttonMultiply" class="m-0.5">x</button>
+              </div>
+              <div class="flex justify-between">
+                <button id="button1" class="m-0.5">1</button>
+                <button id="button2" class="m-0.5">2</button>
+                <button id="button3" class="m-0.5">3</button>
+                <button id="buttonSubtract">-</button>
+              </div>
+              <div class="flex justify-center">
+                <button id="buttonAdd" class="m-0.5">+</button>
+                <button id="button0" class="m-0.5">0</button>
+                <button id="buttonEqual" class="m-0.5">=</button>
+              </div>
+            </div>
+          </div>
+          <span class="container mx-auto flex justify-center pl-28 text-sm">Jordan Ras 96</span>
+        </div>
+
+        <script type="module" src="main.js"></script>
+      </body>
+    </html>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
